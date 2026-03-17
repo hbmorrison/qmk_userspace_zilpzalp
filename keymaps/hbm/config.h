@@ -14,15 +14,14 @@
 
 #pragma once
 
-// Tell the core keymap module to use some alternative layouts:
-//
-// - ZILPZALP_ALT_BASE changes the inside keys on the base layer to the middle
-//   and bottom keycodes rather than the top and middle ones.
+// Choose the keymap that puts the modifier layers onto the thumb keys, and let
+// the handed mods affect keys on the same side, rather than applying to the
+// opposite side.
+
+#define CORE_KEYMAP_THUMB_MOD_LAYERS
+#define HANDED_MODS_SAME_SIDE
+
+// Make the zilpzalp base layer use middle/bottom keys on the inside rather than
+// top/middle keys.
 
 #define CORE_KEYMAP_ZILPZALP_ALT_BASE
-
-// - EXTENDED_ALT_RSYM moves the minus/underscore and equals/plus key pairs
-//   together and up onto the top middle and top right of the extended right
-//   symbol layer.
-
-#define CORE_KEYMAP_EXTENDED_ALT_RSYMX
