@@ -18,7 +18,7 @@
 // the handed mods affect keys on the same side, rather than applying to the
 // opposite side.
 
-#define CORE_KEYMAP_THUMB_MOD_LAYERS
+#define CORE_KEYMAP_THUMB_MODS
 #define HANDED_MODS_SAME_SIDE
 
 // Make the zilpzalp base layer use middle/bottom keys on the inside rather than
