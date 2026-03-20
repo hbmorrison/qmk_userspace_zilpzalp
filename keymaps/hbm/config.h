@@ -14,11 +14,9 @@
 
 #pragma once
 
-// Choose the keymap that puts the modifier layers onto the thumb keys, and let
-// the handed mods affect keys on the same side, rather than applying to the
-// opposite side.
+// Choose the keymap.
 
-#define CORE_KEYMAP_THUMB_MODS
+#define CORE_KEYMAP_THUMB_EXT
 #define HANDED_MODS_SAME_SIDE
 
 // Make the zilpzalp base layer use middle/bottom keys on the inside rather than
