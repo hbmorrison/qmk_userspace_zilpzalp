@@ -17,7 +17,6 @@
 // Choose the keymap.
 
 #define CORE_KEYMAP_THUMB_EXT
-#define HANDED_MODS_SAME_SIDE
 
 // Make the zilpzalp base layer use middle/bottom keys on the inside rather than
 // top/middle keys.
