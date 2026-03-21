@@ -14,11 +14,11 @@
 
 #pragma once
 
-// Choose the keymap.
+// Use the layout for the zilpzalp keyboard.
 
-#define CORE_KEYMAP_THUMB_EXT
+#define CORE_KEYMAP_ZILPZALP
 
-// Make the zilpzalp base layer use middle/bottom keys on the inside rather than
-// top/middle keys.
+// Use the alternative layout that puts the middle/bottom keycodes on the
+// inside of the zilpzalp keyboard rather than top/middle keycodes.
 
-#define CORE_KEYMAP_ZILPZALP_ALT_BASE
+#define CORE_KEYMAP_ZILPZALP_ALT
